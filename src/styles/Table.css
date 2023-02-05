@@ -1,0 +1,45 @@
+.Table {
+  position: relative;
+  width: 90%;
+  height: auto;
+  background-color: white;
+  top: 2rem;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, .1);
+}
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
+}
+
+.np{
+    font-size: 20px;
+    color: #333;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.np:hover{
+    opacity: .8;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+tbody tr,
+tfoot tr {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+tfoot tr {
+  font-weight: 500;
+}
+
+tbody tr:hover {
+  opacity: .8;
+}
+
